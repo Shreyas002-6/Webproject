@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First website</title>
+</head>
+
+
+
+<style>
+h1{
+text-align: center;
+font-size: 50px}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+body{
+//background-color: lightblue;
+color: white;
+background-image: url("/home/shr/Desktop/Project/backg.jpg");
+}
+img{
+margin: 22px 10px 10px 0px;
+float: right;
+}
+
+#container
+{
+text-align: center;
+}
+
+#b2
+{
+position: fixed;
+left:50%;
+top:50%;
+background-color: #343A40;
+  border-radius: 4px;  
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+//display: block;
+//margin: auto;
+}
+
+#b2:hover{
+color: #111;
+background:#FFFF33;
+box-shadow: 0 0 50px #FFFF33;
+}
+
+
+.m{
+animation: blinker 2s linear infinite;
+color: pink;
+font-family: sans-serif;
+}
+@keyframes blinker{
+50%{
+opacity: 0;
+}
+}
+
+</style>
+
+
+
+
+<body>
+<marquee class="m" direction="left" scrollamount="30" behavior="alternate" style="border:WHITE 2px SOLID"><h1>Website</h1></marquee>
+<img src="/home/shr/Desktop/Project/backim.png"width="200">
+<p>I am just trying to make a good website to learn html and css myself</p>
+<h2>I am learning this because:</h2>
+<ol>
+<li>I got time</li>
+<li>It will help me in future</li>
+<li>Just for fun also</li>
+</ol>
+<ul>
+<li>Unordered list</li>
+</ul>
+<div id="container">
+<!--button id="b1">Click me</button-->
+</div>
+<button id="b2">Click here</button>
+</body>
+</html>
