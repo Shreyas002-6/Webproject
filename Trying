@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>First website</title>
+</head>
+
+
+
+<style>
+
+ ul {
+      text-align: center;
+      margin: -75px;
+      margin-left:-290px;
+      padding: 15px 4px 17px 0;
+    }
+    
+    ul li {
+      font-size:15px;
+      font-family:Tahoma, sans-serif;
+      display: inline-block;
+      margin-right: -15px;
+      padding: 15px 20px;
+      color: #888888;
+      cursor: pointer;
+    }
+    
+    ul li:hover {
+      color: white;
+      }
+
+
+body{
+//background-color: #4E4E4E;
+color: white;
+background-image: url("bg.png");
+}
+
+
+
+
+img{
+position:relative;
+left:67px;
+top:-9px;
+margin: 1px;
+margin-right: -100px;
+//float: left;
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+<body>
+
+<img src="vslogo.png"width="210">
+<div id="menubar">
+
+<ul><li>Docs</li>
+<li>Updates</li>
+<li>Blog</li>
+<li>API</li>
+<li>Extensions</li>
+<li>FAQ</li>
+<li>Learn</li>
+</ul>
+</div>
+<div class="search">
+<input type="text" placeholder="Search Docs">
+</div>
+</body>
+</html>
